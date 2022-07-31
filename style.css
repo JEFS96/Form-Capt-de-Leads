@@ -17,9 +17,9 @@ body{
 
 /* Configurações Topo */
 #topo{
-    background: rgb(247, 247, 247);
+    background: #2091E3;
     line-height: 8vh;
-    color: rgb(86, 86, 217);
+    color: white;
 }
 #topo h1{
     position: relative; left:20px;
