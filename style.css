@@ -1,0 +1,26 @@
+/* Configurações gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{ 
+    font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
+    overflow-x: hidden;  
+    background-image: url(../Agendeja/Imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+/* Configurações Topo */
+#topo{
+    background: rgb(247, 247, 247);
+    line-height: 8vh;
+    color: rgb(86, 86, 217);
+}
+#topo h1{
+    position: relative; left:20px;
+}
