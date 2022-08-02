@@ -22,10 +22,11 @@ form{
     width: 600px;
     margin: 0 auto;
     margin-top: 50px;
+    padding: 10px 0;
 }
 form h2{
     width: 360px;
-    position: relative; left: 100px;
+    position: relative; left: 70px;
     text-align: center;
     padding: 10px;
     margin: 5px;
@@ -36,17 +37,19 @@ form h2{
 label {
     display: block;
     margin-bottom:  20px;
-    position: relative; left:20px;
+    position: relative; left:50px;
 }
 
-input[type=text],[type=e-mail],[type=tel],textarea{
+input[type=text],[type=e-mail],[type=tel],textarea {
     padding: 10px;
     width: 500px;
     font-size: 15px;
     border: 1px solid #ccc;
     outline: 0;
     margin-top: 5px;
+    border-radius: 25px;
 }
+
 
 textarea{
     height: px;
@@ -57,15 +60,19 @@ textarea{
     text-decoration: none;
 }
 
-button {
-    padding: 10px;
+.btn {
+    padding: 12px;
     font: size 15px;
     border: 1px solid #ccc;
     background-color: #eee;
-    position: relative; left:20px;
+    position: relative; left:190px;
     margin: 10px;
+    border-radius: 50px;
+    width: 220px;
 }
 
-button:hover {
-    background-color: #ddd;
+    
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
 }

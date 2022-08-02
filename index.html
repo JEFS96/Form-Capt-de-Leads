@@ -11,34 +11,42 @@
     <!-- Inicio Container -->
     <div id="container">
     
-        <form action="Formulario com sucesso" method="get"> 
+        <form id="form-container" action="Formulario com sucesso" method="get"> 
              
             <label > 
                 <h2> Quer sua liberdade financeira?<br>Preencha esse formulário</h2> 
-              Nome Completo:<br/>
-            <input type="text" name="nome" />
+                Nome Completo:<br/>
+                <input id="text" type="text" name="nome" />
+                <span class="error-field"></span>
             </label>
 
             <label>
-                e-mail<br/>
-                <input type="e-mail" name="email" placeholder="Digite seu e-mail" required>
+                e-mail:<br/>
+                <input id="e-mail" type="e-mail" name="email" placeholder="Digite seu e-mail" required>
+                <span class="error-field"></span>
             </label>
                 
             <label>
                 Celular:<br/>
-                <input type="tel" name="telefone/celular" required>
+                <input id="tel" type="tel" name="telefone/celular" placeholder="Digite seu Celular" required>
+                <span class="error-field"></span>
             </label>
         
             <label>
                 Qual o seu maior sonho?:<br/>
-                <textarea name="descricao"> </textarea>
+                <textarea id="descricao" name="descricao"> </textarea>
+                <span class="error-field"></span>
             </label>
     
             <label>
-                    Concordo em receber comunicação 
-                <input type="checkbox" name="ciente">
+                Concordo em receber comunicação 
+                <input id="checkbox" type="checkbox" name="ciente">
+                <span class="error-field"></span>
             </label>
-            <button> Fazer Cadastro</button>
+
+                <input id="submit" class="btn" type="submit"  value="Enviar formulário">
+                <span class="error-field"></span>
+            
         </form>
     </div>
     <!-- final container -->
