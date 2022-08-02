@@ -1,5 +1,6 @@
 /* Configurações gerais */
 *{
+    box-sizing:border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -7,20 +8,58 @@
 body{ 
     font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
     overflow-x: hidden;  
-    background-image: url(../Agendeja/Imagens/fundo.jpg);
+    background-image: url(../FormLeads/Imagens/praia.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
-
-
-/* Configurações Topo */
-#topo{
-    background: #2091E3;
-    line-height: 8vh;
-    color: white;
+/* Configuração form */
+form{
+    background: rgb(227, 226, 235);
+    border-radius: 15px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
-#topo h1{
-    position: relative; left:20px;
+form h3{
+    position: relative; left:10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom:  20px;
+    position: relative; left:10px;
+}
+
+input[type=text], textarea{
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    outline: 0;
+    margin-top: 5px;
+}
+
+textarea{
+    height: 200px;
+    resize: none;
+}
+.termoslink{
+    color:#000;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+    font: size 15px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    position: relative; left:10px;
+}
+
+button:hover {
+    background-color: #ddd;
 }
