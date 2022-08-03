@@ -5,15 +5,16 @@
     padding: 0px;
 }
 
-body{ 
+body { 
     font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
-    overflow-x: hidden;  
+    background-size: cover;
     background-image: url(../Form%20Leads/Imagens/praia.webp);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-size: 100vw;
 
 }
+
 
 /* Configuração form */
 form{
@@ -75,4 +76,25 @@ textarea{
 
 .btn:hover {
     background-color: rgb(255, 255, 255);
+}
+
+/* PG 2 */
+#container2{
+   
+
+}
+#Sucesso{
+    border-radius: 50px;
+    width: 450px;
+    height: 250px;
+    background: #ccc;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(2, 2, 81) ;
+}
+#Sucesso h2{
+    padding: 90px;
+    font-size: 25px;
+    
 }

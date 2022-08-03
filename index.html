@@ -11,36 +11,36 @@
     <!-- Inicio Container -->
     <div id="container">
     
-        <form id="form-container" action="Formulario com sucesso" method="get"> 
+        <form id="form-container" action="Enviado.html" method="get"> 
              
             <label > 
                 <h2> Quer sua liberdade financeira?<br>Preencha esse formulário</h2> 
                 Nome Completo:<br/>
-                <input id="text" type="text" name="nome" />
+                <input id="text" type="text" name="nome"  required minlength="3">
                 <span class="error-field"></span>
             </label>
 
             <label>
                 e-mail:<br/>
-                <input id="e-mail" type="e-mail" name="email" placeholder="Digite seu e-mail" required>
+                <input id="e-mail" type="e-mail" name="email" placeholder="Digite seu e-mail" required  pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de e-mail">
                 <span class="error-field"></span>
             </label>
                 
             <label>
                 Celular:<br/>
-                <input id="tel" type="tel" name="telefone/celular" placeholder="Digite seu Celular" required>
+                <input id="tel" type="tel" name="telefone/celular" placeholder="Digite seu Celular " required>
                 <span class="error-field"></span>
             </label>
         
             <label>
                 Qual o seu maior sonho?:<br/>
-                <textarea id="descricao" name="descricao"> </textarea>
+                <textarea id="descricao" name="descricao" maxlength="120"> </textarea>
                 <span class="error-field"></span>
             </label>
     
             <label>
                 Concordo em receber comunicação 
-                <input id="checkbox" type="checkbox" name="ciente">
+                <input id="checkbox" type="checkbox" name="ciente" required>
                 <span class="error-field"></span>
             </label>
 
